@@ -1,9 +1,9 @@
 backend:
-  name: github
+  name: git-gateway
   repo: https://github.com/Stepheeeen/sdijieandassociates
   branch: main
 
-media_folder: "/img/uploads"
+media_folder: "img/uploads"
 public_folder: "/img/uploads"
 
 collections:
