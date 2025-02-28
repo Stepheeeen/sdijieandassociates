@@ -1,0 +1,84 @@
+backend:
+  name: github
+  repo: https://github.com/Stepheeeen/sdijieandassociates
+  branch: main
+
+media_folder: "img/uploads"
+public_folder: "img/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "index"
+        label: "Home Page"
+        file: "index.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      - name: "about"
+        label: "About Us"
+        file: "about.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      - name: "contact"
+        label: "Contact"
+        file: "contact.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      - name: "practice-areas"
+        label: "Practice Areas"
+        file: "practice-areas.html"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "body", widget: "markdown" }
+
+      - name: "case-studies"
+        label: "Case Studies"
+        files:
+          - name: "corporate-law"
+            label: "Corporate Law"
+            file: "case-study-corporate-law.html"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "body", widget: "markdown" }
+
+          - name: "dispute-resolution"
+            label: "Dispute Resolution"
+            file: "case-study-dispute-resolution.html"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "body", widget: "markdown" }
+
+          - name: "humanitarian-law"
+            label: "Humanitarian Law"
+            file: "case-study-humanitarian-law.html"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "body", widget: "markdown" }
+
+          - name: "ip-law"
+            label: "Intellectual Property Law"
+            file: "case-study-ip-law.html"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "body", widget: "markdown" }
+
+          - name: "maritime-law"
+            label: "Maritime Law"
+            file: "case-study-maritime-law.html"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "body", widget: "markdown" }
+
+          - name: "notable-cases"
+            label: "Notable Cases"
+            file: "case-study-notable-cases.html"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "body", widget: "markdown" }
