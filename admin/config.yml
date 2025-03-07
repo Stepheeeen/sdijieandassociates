@@ -9,6 +9,10 @@ public_folder: "/img/uploads"
 collections:
   - name: "pages"
     label: "Pages"
+    folder: "content/pages"
+    create: true
+    extension: "json"
+    format: "json"
     files:
       - label: "Home"
         name: "home"
