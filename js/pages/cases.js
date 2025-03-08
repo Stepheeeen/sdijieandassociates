@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", async function () {
     try {
-        const response = await fetch("../../content/pages/cases.json");
-        const cases = await response.json();
+        const response = await fetch("/content/pages/cases.json"); // Check if path is correct
+        const data = await response.json();
         const caseList = document.getElementById("case-study-list");
 
-        caseList.innerHTML = cases
+        caseList.innerHTML = data.cases
             .map(
                 (c) => `
         <div class="col-lg-4 col-md-6 mb-30">
@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", async function () {
               <img src="${c.image}" alt="${c.title}" />
             </div>
             <div class="con">
-              <div class="title">${c.title.replace(" & ", " <br />")}</div>
+              <div class="title">${c.title.replace(/\s&\s/, " <br />")}</div>
               <div class="arrow">
                 <a href="case-study-page.html?id=${c.id}">
-                  <span class="fa-light fa-arrow-right"></span>
+                  <span class="fas fa-arrow-right"></span>
                 </a>
               </div>
             </div>

@@ -8,7 +8,7 @@ function getQueryParam(param) {
 async function loadCaseStudy() {
     try {
         // Fetch case study data from the JSON file
-        const response = await fetch("../../content/pages/caseStudy.json"); // Ensure this path is correct
+        const response = await fetch("../../content/pages/caseStudy.json"); // Adjust path if necessary
         if (!response.ok) {
             throw new Error("Failed to fetch case studies");
         }
@@ -20,36 +20,40 @@ async function loadCaseStudy() {
         console.log("Requested Case ID:", caseId);
 
         // Get the corresponding data from the JSON object
+        if (!caseStudies[caseId]) {
+            throw new Error("Case study not found");
+        }
         const caseData = caseStudies[caseId];
         console.log("Loaded Case Data:", caseData);
 
-        if (caseData) {
-            document.getElementById("case-study-topic").textContent = caseData.case_study
-            document.getElementById("section-title").textContent = caseData.title;
-            document.getElementById("section-description").textContent = caseData.description;
-            document.getElementById("help-text").textContent = caseData.help_text;
+        // Populate the page with case study details
+        document.getElementById("case-study-topic").textContent = caseData.case_study || "Case Study";
+        document.getElementById("section-title").textContent = caseData.title || "Case Title";
+        document.getElementById("section-description").textContent = caseData.description || "Description not available.";
+        document.getElementById("help-text").textContent = caseData.help_text || "";
 
-            // Populate services list dynamically
-            const serviceList = document.getElementById("service-list");
-            serviceList.innerHTML = ""; // Clear previous content
+        // Populate services list dynamically
+        const serviceList = document.getElementById("service-list");
+        serviceList.innerHTML = ""; // Clear previous content
+        if (Array.isArray(caseData.services)) {
             caseData.services.forEach((service) => {
                 const listItem = document.createElement("li");
                 listItem.innerHTML = `
-            <div class="page-list-icon"><span class="ti-check"></span></div>
-            <div class="page-list-text"><p>${service}</p></div>
-          `;
+                    <div class="page-list-icon"><span class="ti-check"></span></div>
+                    <div class="page-list-text"><p>${service}</p></div>
+                `;
                 serviceList.appendChild(listItem);
             });
-
-            document.getElementById("notable-case-title").textContent = caseData.notable_case.title;
-            document.getElementById("notable-case-description").textContent = caseData.notable_case.description;
-            document.getElementById("cta-title").textContent = caseData.cta.title;
-            document.getElementById("cta-description").textContent = caseData.cta.description;
-        } else {
-            // Case not found
-            document.getElementById("section-title").textContent = "Case Study Not Found";
-            document.getElementById("section-description").textContent = "The requested case study does not exist.";
         }
+
+        // Populate notable case details
+        document.getElementById("notable-case-title").textContent = caseData.notable_case?.title || "No notable cases";
+        document.getElementById("notable-case-description").textContent = caseData.notable_case?.description || "";
+
+        // Populate call-to-action section
+        document.getElementById("cta-title").textContent = caseData.cta?.title || "";
+        document.getElementById("cta-description").textContent = caseData.cta?.description || "";
+
     } catch (error) {
         console.error("Error loading case study:", error);
         document.getElementById("section-title").textContent = "Error";
