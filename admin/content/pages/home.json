@@ -1,0 +1,72 @@
+{
+    "parallax": {
+        "background": "img/slider/3.jpg",
+        "overlay": "6",
+        "icon": "flaticon-courthouse",
+        "tagline": "Trusted Legal Expertise",
+        "title": "Championing <span>Justice and Integrity</span>",
+        "buttonText": "Discover Our Firm",
+        "buttonLink": "#"
+    },
+    "about": {
+        "icon": "flaticon-courthouse",
+        "subtitle": "About Our Firm",
+        "title": "Upholding <span>Justice and Integrity</span>",
+        "description": "With a deep commitment to justice, we provide strategic legal counsel and representation across diverse legal fields, ensuring the best outcomes for our clients.",
+        "points": [
+            "Comprehensive corporate and commercial legal services.",
+            "Innovative and client-focused legal solutions."
+        ],
+        "buttonText": "Learn More",
+        "buttonLink": "#",
+        "years": 20,
+        "yearsText": "Years of Legal Excellence",
+        "image": "img/about-01.jpg"
+    },
+    "caseStudy": {
+        "icon": "flaticon-courthouse",
+        "subtitle": "Our Expertise",
+        "title": "Legal <span>Case Studies</span>",
+        "description": "Our firm has successfully handled complex legal matters across various practice areas, ensuring justice and favorable outcomes for our clients.",
+        "buttonText": "Explore More",
+        "buttonLink": "#",
+        "cases": [
+            {
+                "title": "Corporate <br />Litigation",
+                "image": "img/case/1.jpg",
+                "alt": "Corporate Litigation",
+                "link": "case-study-notable-cases.html"
+            },
+            {
+                "title": "Maritime <br />Disputes",
+                "image": "img/case/2.jpg",
+                "alt": "Maritime Law",
+                "link": "case-study-notable-cases.html"
+            },
+            {
+                "title": "Dispute <br />Resolution",
+                "image": "img/case/3.jpg",
+                "alt": "Dispute Resolution",
+                "link": "case-study-dispute-resolution.html"
+            },
+            {
+                "title": "Humanitarian <br />Law",
+                "image": "img/case/4.jpg",
+                "alt": "Humanitarian Law",
+                "link": "case-study-humanitarian-law.html"
+            },
+            {
+                "title": "Human <br />Rights",
+                "image": "img/case/5.jpg",
+                "alt": "Human Rights",
+                "link": "case-study-humanitarian-law.html"
+            },
+            {
+                "title": "Criminal <br />Defense",
+                "image": "img/case/6.jpg",
+                "alt": "Criminal Defense",
+                "link": "case-study-notable-cases.html"
+            }
+        ]
+    }
+}
