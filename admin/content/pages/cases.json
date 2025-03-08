@@ -1,0 +1,32 @@
+[
+    {
+        "id": "dispute",
+        "title": "Dispute Resolution & Litigation",
+        "image": "img/case/dispute-resolution.jpg"
+    },
+    {
+        "id": "maritime",
+        "title": "Maritime & Admiralty Law",
+        "image": "img/case/maritime-law.jpg"
+    },
+    {
+        "id": "intellectual",
+        "title": "Intellectual Property Law",
+        "image": "img/case/ip-law.jpg"
+    },
+    {
+        "id": "humanitarian",
+        "title": "International Humanitarian Law",
+        "image": "img/case/humanitarian-law.jpg"
+    },
+    {
+        "id": "corporate",
+        "title": "Corporate & Commercial Law",
+        "image": "img/case/coperate-law.jpg"
+    },
+    {
+        "id": "notable",
+        "title": "Notable Cases",
+        "image": "img/case/notable-cases.jpg"
+    }
+]

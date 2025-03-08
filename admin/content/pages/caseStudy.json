@@ -1,7 +1,102 @@
 {
     "dispute": {
-        "case_study": "What is Dispute Resolution & Litigation",
+        "case_study": "Dispute Resolution & Litigation",
         "title": "What is Dispute Resolution & Litigation?",
+        "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
+        "help_text": "We help clients settle disputes efficiently, protecting their rights and interests.",
+        "services": [
+            "Commercial & Business Disputes",
+            "Arbitration & Mediation",
+            "Litigation & Court Representation"
+        ],
+        "notable_case": {
+            "title": "Notable Case: Corporate Contract Dispute",
+            "description": "Successfully represented a multinational corporation in a contract dispute, achieving a favorable out-of-court settlement."
+        },
+        "cta": {
+            "title": "Seeking Legal Representation?",
+            "description": "Our legal experts ensure fair and just outcomes in dispute resolution."
+        }
+    },
+    "cooperate": {
+        "case_study": "Corporate & Commercial Law Corporate & Commercial Law",
+        "title": "What is Corporate & Commercial Law Corporate & Commercial Law?",
+        "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
+        "help_text": "We help clients settle disputes efficiently, protecting their rights and interests.",
+        "services": [
+            "Commercial & Business Disputes",
+            "Arbitration & Mediation",
+            "Litigation & Court Representation"
+        ],
+        "notable_case": {
+            "title": "Notable Case: Corporate Contract Dispute",
+            "description": "Successfully represented a multinational corporation in a contract dispute, achieving a favorable out-of-court settlement."
+        },
+        "cta": {
+            "title": "Seeking Legal Representation?",
+            "description": "Our legal experts ensure fair and just outcomes in dispute resolution."
+        }
+    },
+    "intellectual": {
+        "case_study": "Intellectual Property Law",
+        "title": "What is Intellectual Property Law?",
+        "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
+        "help_text": "We help clients settle disputes efficiently, protecting their rights and interests.",
+        "services": [
+            "Commercial & Business Disputes",
+            "Arbitration & Mediation",
+            "Litigation & Court Representation"
+        ],
+        "notable_case": {
+            "title": "Notable Case: Corporate Contract Dispute",
+            "description": "Successfully represented a multinational corporation in a contract dispute, achieving a favorable out-of-court settlement."
+        },
+        "cta": {
+            "title": "Seeking Legal Representation?",
+            "description": "Our legal experts ensure fair and just outcomes in dispute resolution."
+        }
+    },
+    "humanitarian": {
+        "case_study": "International Humanitarian Law International Humanitarian Law",
+        "title": "What is International Humanitarian Law International Humanitarian Law?",
+        "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
+        "help_text": "We help clients settle disputes efficiently, protecting their rights and interests.",
+        "services": [
+            "Commercial & Business Disputes",
+            "Arbitration & Mediation",
+            "Litigation & Court Representation"
+        ],
+        "notable_case": {
+            "title": "Notable Case: Corporate Contract Dispute",
+            "description": "Successfully represented a multinational corporation in a contract dispute, achieving a favorable out-of-court settlement."
+        },
+        "cta": {
+            "title": "Seeking Legal Representation?",
+            "description": "Our legal experts ensure fair and just outcomes in dispute resolution."
+        }
+    },
+    "maritime": {
+        "case_study": "Maritime & Admiralty Law",
+        "title": "What is Maritime & Admiralty Law?",
+        "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
+        "help_text": "We help clients settle disputes efficiently, protecting their rights and interests.",
+        "services": [
+            "Commercial & Business Disputes",
+            "Arbitration & Mediation",
+            "Litigation & Court Representation"
+        ],
+        "notable_case": {
+            "title": "Notable Case: Corporate Contract Dispute",
+            "description": "Successfully represented a multinational corporation in a contract dispute, achieving a favorable out-of-court settlement."
+        },
+        "cta": {
+            "title": "Seeking Legal Representation?",
+            "description": "Our legal experts ensure fair and just outcomes in dispute resolution."
+        }
+    },
+    "notable": {
+        "case_study": "Notable Cases",
+        "title": "What are Notable Cases?",
         "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
         "help_text": "We help clients settle disputes efficiently, protecting their rights and interests.",
         "services": [
