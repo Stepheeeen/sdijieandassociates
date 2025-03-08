@@ -1,0 +1,22 @@
+{
+  "cases": [
+    {
+      "id": "test",
+      "case_study": "Test law",
+      "title": "What is Test law?",
+      "description": "Just something to use to know if the entry i entered is correct",
+      "help_text": "Nothing for now",
+      "notable_case": {
+        "title": "nill",
+        "description": "nill"
+      },
+      "cta": {
+        "title": "nill",
+        "description": "nill"
+      },
+      "services": [
+        "N/A"
+      ]
+    }
+  ]
+}
