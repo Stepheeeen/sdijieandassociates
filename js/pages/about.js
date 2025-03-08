@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../../admin/content/pages/about.json")
+    fetch("../../content/pages/about.json")
         .then(response => response.json())
         .then(data => {
             // Update Icon
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../../admin/content/pages/about.json")
+    fetch("../../content/pages/about.json")
         .then(response => response.json())
         .then(data => {
             // Get elements

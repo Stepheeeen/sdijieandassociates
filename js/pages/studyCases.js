@@ -8,7 +8,7 @@ function getQueryParam(param) {
 async function loadCaseStudy() {
     try {
         // Fetch case study data from the JSON file
-        const response = await fetch("../../admin/content/pages/caseStudy.json"); // Ensure this path is correct
+        const response = await fetch("../../content/pages/caseStudy.json"); // Ensure this path is correct
         if (!response.ok) {
             throw new Error("Failed to fetch case studies");
         }

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async function () {
     try {
-        const response = await fetch("../../admin/content/pages/cases.json");
+        const response = await fetch("../../content/pages/cases.json");
         const cases = await response.json();
         const caseList = document.getElementById("case-study-list");
 

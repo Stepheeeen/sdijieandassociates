@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../../admin/content/pages/home.json")
+    fetch("../../content/pages/home.json")
         .then(response => response.json())
         .then(data => {
             const parallaxData = data.parallax;
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../../admin/content/pages/home.json")
+    fetch("../../content/pages/home.json")
         .then(response => response.json())
         .then(data => {
             const aboutData = data.about;
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../../admin/content/pages/about.json")
+    fetch("../../content/pages/about.json")
         .then(response => response.json())
         .then(data => {
             // Update Icon
