@@ -1,11 +1,6 @@
 {
   "cases": [
     {
-      "id": "test",
-      "title": "Test law",
-      "image": "/img/uploads/code.png"
-    },
-    {
       "id": "dispute",
       "title": "Dispute Resolution & Litigation",
       "image": "img/case/dispute-resolution.jpg"
