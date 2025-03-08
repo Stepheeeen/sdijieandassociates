@@ -19,8 +19,8 @@
         }
     },
     "cooperate": {
-        "case_study": "Corporate & Commercial Law Corporate & Commercial Law",
-        "title": "What is Corporate & Commercial Law Corporate & Commercial Law?",
+        "case_study": "Corporate & Commercial Law",
+        "title": "What is Corporate & Commercial Law?",
         "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
         "help_text": "We help clients settle disputes efficiently, protecting their rights and interests.",
         "services": [
@@ -57,8 +57,8 @@
         }
     },
     "humanitarian": {
-        "case_study": "International Humanitarian Law International Humanitarian Law",
-        "title": "What is International Humanitarian Law International Humanitarian Law?",
+        "case_study": "International Humanitarian Law",
+        "title": "What is International Humanitarian Law?",
         "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
         "help_text": "We help clients settle disputes efficiently, protecting their rights and interests.",
         "services": [
