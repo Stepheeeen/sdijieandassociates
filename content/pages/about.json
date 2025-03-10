@@ -1,26 +1,36 @@
 {
-    "about": {
-        "name": "Sylvester Delta Ijie, PhD (Law)",
-        "description": "Sylvester Ijie is a distinguished legal practitioner and thought leader with extensive experience in Nigerian law. His expertise spans corporate and commercial law, maritime law, dispute resolution, and international humanitarian law.",
-        "experience": {
-            "years": "20",
-            "text": "Years of Experience"
-        },
-        "image": "img/about-01.jpg",
-        "alt": "Sylvester Ijie",
-        "highlights": [
-            "PhD in International Humanitarian Law, specializing in the Rwanda Armed Conflict.",
-            "Expertise in litigation, legal strategy, and corporate law."
-        ]
+  "experience_years": 20,
+  "experience_text": "Years of Legal Excellence",
+  "image_alt": "Sylvester Ijie",
+  "about2": {
+    "icon": "flaticon-courthouse",
+    "subtitle": "Trusted Legal Advisors",
+    "title": "Delivering Exceptional <span>Legal Solutions</span>",
+    "description": "Dr. Sylvester Delta Ijie is a Barrister and Solicitor of the Supreme Court of Nigeria and the Principal Partner of <strong>S. D. IJIE & ASSOCIATES</strong>, Legal Practitioners, and Notaries Public. He obtained his <strong>Bachelor of Laws (LL.B Hons)</strong> from Edo State University, Ekpoma, and his <strong>B.L</strong> from the Nigerian Law School. He furthered his education with a <strong>Masters in Law (LL.M)</strong> in Commercial Law from the University of Lagos, and a <strong>Doctorate (Ph.D) in Law</strong> specializing in Jurisprudence and International Law from Ambrose Alli University, Ekpoma. As a seasoned legal expert, Dr. Ijie has extensive experience in <strong>Maritime/Admiralty Law, Company Secretariat and Corporate Practices, Property Law, Intellectual Property, Corporate Finance, Mergers & Acquisitions, Debt Recovery, and both Civil & Criminal Litigation</strong>. His expertise extends to legal research and consultancy, making him a formidable advocate in Nigerian courts. Driven by a commitment to justice, he continues to provide strategic legal counsel, ensuring clients receive top-tier representation and legal solutions tailored to their needs.",
+    "image": "img/about-02.jpg",
+    "imageAlt": "Experienced Legal Team",
+    "founderName": "Dr. Sylvester Delta Ijie, PhD",
+    "founderRole": "Managing Partner & Founder"
+  },
+  "name": "Sylvester Delta Ijie, PhD (Law)",
+  "about": {
+    "name": "Sylvester Delta Ijie, PhD (Law)",
+    "description": "Sylvester Ijie is a distinguished legal practitioner and thought leader with extensive experience in Nigerian law. His expertise spans corporate and commercial law, maritime law, dispute resolution, and international humanitarian law.",
+    "experience": {
+      "years": "20",
+      "text": "Years of Experience"
     },
-    "about2": {
-        "icon": "flaticon-courthouse",
-        "subtitle": "Trusted Legal Advisors",
-        "title": "Delivering Exceptional <span>Legal Solutions</span>",
-        "description": "Dr. Sylvester Delta Ijie is a Barrister and Solicitor of the Supreme Court of Nigeria and the Principal Partner of <strong>S. D. IJIE & ASSOCIATES</strong>, Legal Practitioners, and Notaries Public. He obtained his <strong>Bachelor of Laws (LL.B Hons)</strong> from Edo State University, Ekpoma, and his <strong>B.L</strong> from the Nigerian Law School. He furthered his education with a <strong>Masters in Law (LL.M)</strong> in Commercial Law from the University of Lagos, and a <strong>Doctorate (Ph.D) in Law</strong> specializing in Jurisprudence and International Law from Ambrose Alli University, Ekpoma. As a seasoned legal expert, Dr. Ijie has extensive experience in <strong>Maritime/Admiralty Law, Company Secretariat and Corporate Practices, Property Law, Intellectual Property, Corporate Finance, Mergers & Acquisitions, Debt Recovery, and both Civil & Criminal Litigation</strong>. His expertise extends to legal research and consultancy, making him a formidable advocate in Nigerian courts. Driven by a commitment to justice, he continues to provide strategic legal counsel, ensuring clients receive top-tier representation and legal solutions tailored to their needs.",
-        "image": "img/about-02.jpg",
-        "imageAlt": "Experienced Legal Team",
-        "founderName": "Dr. Sylvester Delta Ijie, PhD",
-        "founderRole": "Managing Partner & Founder"
-    }
+    "image": "img/about-01.jpg",
+    "alt": "Sylvester Ijie",
+    "highlights": [
+      "PhD in International Humanitarian Law, specializing in the Rwanda Armed Conflict.",
+      "Expertise in litigation, legal strategy, and corporate law."
+    ]
+  },
+  "image": "/img/uploads/about-01.jpg",
+  "description": "Sylvester Ijie is a distinguished legal practitioner and thought leader with extensive experience in Nigerian law. His expertise spans corporate and commercial law, maritime law, dispute resolution, and international humanitarian law.",
+  "highlights": [
+    "PhD in International Humanitarian Law, specializing in the Rwanda Armed Conflict.",
+    "Expertise in litigation, legal strategy, and corporate law."
+  ]
 }
