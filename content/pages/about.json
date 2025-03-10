@@ -1,12 +1,13 @@
 {
-  "name": "Sylvester Delta Ijie, PhD (Law)",
-  "experience_years": 20,
-  "experience_text": "Years of Legal Excellence",
-  "image_alt": "Sylvester Ijie",
-  "image": "/img/uploads/about-01.jpg",
-  "description": "Sylvester Ijie is a distinguished legal practitioner and thought leader with extensive experience in Nigerian law. His expertise spans corporate and commercial law, maritime law, dispute resolution, and international humanitarian law.",
-  "highlights": [
-    "PhD in International Humanitarian Law, specializing in the Rwanda Armed Conflict.",
-    "Expertise in litigation, legal strategy, and corporate law."
-  ]
+    "icon": "flaticon-courthouse",
+    "name": "Sylvester Delta Ijie, PhD (Law)",
+    "experience_years": 20,
+    "experience_text": "Years of Legal Excellence",
+    "image_alt": "Sylvester Ijie",
+    "image": "/img/about-01.jpg",
+    "description": "Sylvester Ijie is a distinguished legal practitioner and thought leader with extensive experience in Nigerian law. His expertise spans corporate and commercial law, maritime law, dispute resolution, and international humanitarian law.",
+    "highlights": [
+        "PhD in International Humanitarian Law, specializing in the Rwanda Armed Conflict.",
+        "Expertise in litigation, legal strategy, and corporate law."
+    ]
 }

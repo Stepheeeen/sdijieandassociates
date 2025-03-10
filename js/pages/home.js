@@ -64,27 +64,27 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../../content/pages/about.json")
+    fetch("../../content/pages/about2.json")
         .then(response => response.json())
         .then(data => {
             // Update Icon
-            document.getElementById("about2-icon").className = data.about2.icon;
+            document.getElementById("about2-icon").className = data.icon;
 
             // Update Subtitle & Title
-            document.getElementById("about2-subtitle").textContent = data.about2.subtitle;
-            document.getElementById("about2-title").innerHTML = data.about2.title;
+            document.getElementById("about2-subtitle").textContent = data.subtitle;
+            document.getElementById("about2-title").innerHTML = data.title;
 
             // Update Description
-            document.getElementById("about2-description").innerHTML = data.about2.description;
+            document.getElementById("about2-description").innerHTML = data.description;
 
             // Update Image
             const aboutImage = document.getElementById("about2-image");
-            aboutImage.src = data.about2.image;
-            aboutImage.alt = data.about2.imageAlt;
+            aboutImage.src = data.image;
+            aboutImage.alt = data.imageAlt;
 
             // Update Founder Details
-            document.getElementById("about2-name").textContent = data.about2.founderName;
-            document.getElementById("about2-role").textContent = data.about2.founderRole;
+            document.getElementById("about2-name").textContent = data.founder_name;
+            document.getElementById("about2-role").textContent = data.founder_role;
         })
         .catch(error => console.error("Error loading About 2 section content:", error));
 });

@@ -13,7 +13,9 @@ async function loadCaseStudy() {
             throw new Error("Failed to fetch case studies");
         }
 
-        const caseStudies = await response.json(); // Convert response to JSON
+        const caseStudy = await response.json(); // Convert response to JSON
+        const caseStudies = caseStudy.cases; // Get the case studies array
+        console.log(caseStudies)
 
         // Extract ID from URL and ensure it's lowercase
         const caseId = getQueryParam("id")?.toLowerCase();
