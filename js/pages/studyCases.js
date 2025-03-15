@@ -15,17 +15,19 @@ async function loadCaseStudy() {
 
         const caseStudy = await response.json(); // Convert response to JSON
         const caseStudies = caseStudy.cases; // Get the case studies array
-        console.log(caseStudies)
+        console.log("All Case Studies:", caseStudies);
 
         // Extract ID from URL and ensure it's lowercase
         const caseId = getQueryParam("id")?.toLowerCase();
         console.log("Requested Case ID:", caseId);
 
-        // Get the corresponding data from the JSON object
-        if (!caseStudies[caseId]) {
+        // Find the case study by ID
+        const caseData = caseStudies.find(cs => cs.id.toLowerCase() === caseId);
+
+        if (!caseData) {
             throw new Error("Case study not found");
         }
-        const caseData = caseStudies[caseId];
+
         console.log("Loaded Case Data:", caseData);
 
         // Populate the page with case study details

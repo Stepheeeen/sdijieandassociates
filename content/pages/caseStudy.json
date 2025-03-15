@@ -1,6 +1,7 @@
 {
   "cases": [
     {
+      "id": "dispute",
       "case_study": "Dispute Resolution & Litigation",
       "title": "What is Dispute Resolution & Litigation?",
       "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
@@ -20,6 +21,7 @@
       }
     },
     {
+      "id": "cooperate",
       "case_study": "Corporate & Commercial Law",
       "title": "What is Corporate & Commercial Law?",
       "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
@@ -39,6 +41,7 @@
       }
     },
     {
+      "id": "intellectual",
       "case_study": "Intellectual Property Law",
       "title": "What is Intellectual Property Law?",
       "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
@@ -58,6 +61,7 @@
       }
     },
     {
+      "id": "humanitarian",
       "case_study": "International Humanitarian Law",
       "title": "What is International Humanitarian Law?",
       "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
@@ -77,6 +81,7 @@
       }
     },
     {
+      "id": "maritime",
       "case_study": "Maritime & Admiralty Law",
       "title": "What is Maritime & Admiralty Law?",
       "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
@@ -96,6 +101,7 @@
       }
     },
     {
+      "id": "notable",
       "case_study": "Notable Cases",
       "title": "What are Notable Cases?",
       "description": "Dispute resolution encompasses legal methods to resolve conflicts outside or within the court system, including arbitration, mediation, and litigation.",
@@ -115,6 +121,7 @@
       }
     },
     {
+      "id": "test",
       "case_study": "Test law",
       "title": "What is Test law?",
       "description": "Just something to use to know if the entry i entered is correct",
