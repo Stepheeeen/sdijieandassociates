@@ -1,36 +1,340 @@
-{
-  "experience_years": 20,
-  "experience_text": "Years of Legal Excellence",
-  "image_alt": "Sylvester Ijie",
-  "about2": {
-    "icon": "flaticon-courthouse",
-    "subtitle": "Trusted Legal Advisors",
-    "title": "Delivering Exceptional <span>Legal Solutions</span>",
-    "description": "Dr. Sylvester Delta Ijie is a Barrister and Solicitor of the Supreme Court of Nigeria and the Principal Partner of <strong>S. D. IJIE & ASSOCIATES</strong>, Legal Practitioners, and Notaries Public. He obtained his <strong>Bachelor of Laws (LL.B Hons)</strong> from Edo State University, Ekpoma, and his <strong>B.L</strong> from the Nigerian Law School. He furthered his education with a <strong>Masters in Law (LL.M)</strong> in Commercial Law from the University of Lagos, and a <strong>Doctorate (Ph.D) in Law</strong> specializing in Jurisprudence and International Law from Ambrose Alli University, Ekpoma. As a seasoned legal expert, Dr. Ijie has extensive experience in <strong>Maritime/Admiralty Law, Company Secretariat and Corporate Practices, Property Law, Intellectual Property, Corporate Finance, Mergers & Acquisitions, Debt Recovery, and both Civil & Criminal Litigation</strong>. His expertise extends to legal research and consultancy, making him a formidable advocate in Nigerian courts. Driven by a commitment to justice, he continues to provide strategic legal counsel, ensuring clients receive top-tier representation and legal solutions tailored to their needs.",
-    "image": "img/uploads/about-02.jpg",
-    "imageAlt": "Experienced Legal Team",
-    "founderName": "Dr. Sylvester Delta Ijie, PhD",
-    "founderRole": "Managing Partner & Founder"
-  },
-  "name": "Sylvester Delta Ijie, PhD (Law)",
-  "about": {
-    "name": "Sylvester Delta Ijie, PhD (Law)",
-    "description": "Sylvester Ijie is a distinguished legal practitioner and thought leader with extensive experience in Nigerian law. His expertise spans corporate and commercial law, maritime law, dispute resolution, and international humanitarian law.",
-    "experience": {
-      "years": "20",
-      "text": "Years of Experience"
-    },
-    "image": "img/about-01.jpg",
-    "alt": "Sylvester Ijie",
-    "highlights": [
-      "PhD in International Humanitarian Law, specializing in the Rwanda Armed Conflict.",
-      "Expertise in litigation, legal strategy, and corporate law."
-    ]
-  },
-  "image": "/img/uploads/about-01.jpg",
-  "description": "Sylvester Ijie is a distinguished legal practitioner and thought leader with extensive experience in Nigerian law. His expertise spans corporate and commercial law, maritime law, dispute resolution, and international humanitarian law.",
-  "highlights": [
-    "PhD in International Humanitarian Law, specializing in the Rwanda Armed Conflict.",
-    "Expertise in litigation, legal strategy, and corporate law."
-  ]
-}
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"><img src="img/logo.png" class="logo-img" alt="" /></a>
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="ti-menu"></i></span>
+            </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="practice-areas.html">Practice areas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="team.html">Attorneys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="case-study.html">Case Study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="navbar-right">
+                    <div class="button"><a href="contact.html">Free consultant</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Banner -->
+    <div class="banner-header valign bg-img bg-fixed" data-overlay-dark="5" data-background="img/slider/10.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 caption mt-60 text-center">
+                    <h6>
+                        <div class="icon"><i class="flaticon-courthouse"></i></div> Qualified experts
+                    </h6>
+                    <h1>Meet Our <span>Attorneys</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team -->
+    <section class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="img"> <img src="img/team/1.jpg" alt="" class="img-cover">
+                            <div class="social-icons">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5><a href="team-details.html">Rhea McKean</a></h5>
+                            <p>Criminal Lawyer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="img"> <img src="img/team/2.jpg" alt="" class="img-cover">
+                            <div class="social-icons">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5><a href="team-details.html">Martin Brown</a></h5>
+                            <p>Family Lawyer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="img"> <img src="img/team/3.jpg" alt="" class="img-cover">
+                            <div class="social-icons">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5><a href="team-details.html">Sophia Mia</a></h5>
+                            <p>Corporate Lawyer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="img"> <img src="img/team/4.jpg" alt="" class="img-cover">
+                            <div class="social-icons">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5><a href="team-details.html">Emily Lucas</a></h5>
+                            <p>Business Lawyer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="img"> <img src="img/team/5.jpg" alt="" class="img-cover">
+                            <div class="social-icons">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5><a href="team-details.html">Olivia Wilson</a></h5>
+                            <p>Divorce Lawyer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="img"> <img src="img/team/6.jpg" alt="" class="img-cover">
+                            <div class="social-icons">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5><a href="team-details.html">Ranish Moore</a></h5>
+                            <p>Criminal Lawyer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="img"> <img src="img/team/7.jpg" alt="" class="img-cover">
+                            <div class="social-icons">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5><a href="team-details.html">Noah Taylor</a></h5>
+                            <p>Real Estate Lawyer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="item">
+                        <div class="img"> <img src="img/team/8.jpg" alt="" class="img-cover">
+                            <div class="social-icons">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h5><a href="team-details.html">Henry Miller</a></h5>
+                            <p>Bankruptcy Lawyer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action -->
+    <section class="call">
+        <div class="background bg-img bg-fixed section-padding" data-background="img/slider/12.jpg"
+            data-overlay-dark="3">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <!-- Main Message -->
+                    <div class="col-lg-8 col-md-12">
+                        <div class="section-title text-white mb-0">
+                            Justice applies to all.
+                            <span>An exceptional attorney</span> makes the difference.
+                        </div>
+                    </div>
+                    <!-- Contact Information -->
+                    <div class="col-lg-3 offset-lg-1 col-md-12">
+                        <div class="call-center">
+                            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="text">
+                                <p>Need Legal Assistance?</p>
+                                <a href="tel:+2348034072146">08034072146</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Top Section -->
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <!-- Company Info -->
+                    <div class="col-md-4 mb-30">
+                        <div class="item">
+                            <div class="logo">
+                                <img src="img/logo.png" alt="Company Logo" />
+                            </div>
+                            <p>
+                                Providing expert legal counsel with a commitment to justice
+                                and client advocacy.
+                            </p>
+                            <div class="social-icons">
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact Information -->
+                    <div class="col-md-3 offset-md-1 mb-30">
+                        <div class="item">
+                            <h3>Contact Us</h3>
+                            <p>
+                                Our address is 2B, Fatai Kaffo street, Fatai Kudirat Estate, Agungi, Lekki, Lagos State,
+                                Nigeria.
+                            </p>
+                            <div class="phone mb-0">
+                                <a href="tel:+2348034072146">08034072146</a>
+                            </div>
+                            <div class="mail">
+                                <a href="mailto:legal@SDI&A.com">legal@SDI&A.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Newsletter Subscription -->
+                    <div class="col-md-4 mb-30">
+                        <div class="item">
+                            <h3>Stay Updated</h3>
+                            <p>
+                                Subscribe to receive updates on legal insights, news, and
+                                services.
+                            </p>
+                            <div class="newsletter">
+                                <form action="#">
+                                    <input type="email" placeholder="Enter your email" required="" />
+                                    <button type="submit">
+                                        <i class="fa-light fa-arrow-right"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="links">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="practice-areas.html">Practice Areas</a></li>
+                                <!-- <li><a href="blog.html">Blog</a></li> -->
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 text-end">
+                        <p>
+                            © 2025
+                            <a href="https://flairtechlabs.com">Flair Technologies Limited</a>. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
